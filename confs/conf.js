@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
 
@@ -10,8 +12,9 @@ exports.config = {
             }
         }
     },
+    params: JSON.parse(fs.readFileSync('./confs/entry.json')),
     specs: [
-        '../tests/sampleTest.js'
+        '../tests/practiceTest.js'
     ],
 
     framework: 'jasmine2',

@@ -1,0 +1,19 @@
+{
+    "genre": "Female",
+    "firstName": "Alma",
+    "lastName": "Madero",
+    "birthDate": "25/10/1991",
+    "signForNewsLetter": true,
+    "signForOffers": true,
+    "companyName": "NSSLabs",
+    "address": "3711 S MoPac Expy #400",
+    "city": "Austin",
+    "state": "Texas",
+    "zip": "78746",
+    "country": "United States",
+    "addInfo": "",
+    "phone": "3324555678",
+    "mobPhone": "3324555678",
+    "addressAlias": "WorkAddress",
+    "baseUrl": "http://automationpractice.com/index.php"
+}
